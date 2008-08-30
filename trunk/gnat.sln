@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gnat", "gnat.vcproj", "{10A120ED-6384-460A-913D-E44D88BD1916}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DC948D76-8503-490C-A07D-11044004FCE3} = {DC948D76-8503-490C-A07D-11044004FCE3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjingle", "..\..\libjingle-0.4.0\talk\libjingle.vcproj", "{DC948D76-8503-490C-A07D-11044004FCE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10A120ED-6384-460A-913D-E44D88BD1916}.Debug|Win32.ActiveCfg = Debug|Win32
+		{10A120ED-6384-460A-913D-E44D88BD1916}.Debug|Win32.Build.0 = Debug|Win32
+		{10A120ED-6384-460A-913D-E44D88BD1916}.Release|Win32.ActiveCfg = Release|Win32
+		{10A120ED-6384-460A-913D-E44D88BD1916}.Release|Win32.Build.0 = Release|Win32
+		{DC948D76-8503-490C-A07D-11044004FCE3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DC948D76-8503-490C-A07D-11044004FCE3}.Debug|Win32.Build.0 = Debug|Win32
+		{DC948D76-8503-490C-A07D-11044004FCE3}.Release|Win32.ActiveCfg = Release|Win32
+		{DC948D76-8503-490C-A07D-11044004FCE3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
